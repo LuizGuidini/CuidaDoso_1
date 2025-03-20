@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cuidadoso - Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="login-container">
+    <h1>Login</h1>
+    <form id="login-form">
+      <label for="username">Usuário:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Senha:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <label for="user-type">Tipo de Usuário:</label>
+      <select id="user-type" name="user-type">
+       ="principal">Principal</option>
+        <option value="amigo">Amigo</option>
+        <option value="colaborador">Colaborador</option>
+      </select>
+      
+      <button type="submit">Entrar</button>
+    </form>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+</html>
