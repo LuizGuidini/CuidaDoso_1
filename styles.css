@@ -8,6 +8,14 @@ body {
   margin: 0;
 }
 
+.card {
+  margin-top: 50px;
+}
+
+.card-title {
+  margin-bottom: 20px;
+}
+
 .login-container {
   background-color: #fff;
   padding: 20px;

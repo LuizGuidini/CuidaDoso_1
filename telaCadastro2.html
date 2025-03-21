@@ -6,8 +6,6 @@
   <title>Cuidadoso - Cadastro</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
 </head>
 <body>
   <div class="container mt-5">
@@ -28,18 +26,6 @@
               <div class="form-group">
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" name="email" required>
-              </div>
-              <div class="form-group">
-                <label for="password">Senha:</label>
-                <input type="password" class="form-control" id="password" name="password" required>
-              </div>
-              <div class="form-group">
-                <label for="user-type">Tipo de Usuário:</label>
-                <select class="form-control" id">Principal</option>
-		  <option value="amigo">Usuário</option>
-                  <option value="amigo">Amigo</option>
-                  <option value="colaborador">Colaborador</option>
-                </select>
               </div>
               <button type="submit" class="btn btn-primary btn-block">Cadastrar</button>
             </form>
