@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: row;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.stack {
+    position: relative;
+}
+
+.align {
+    position: absolute;
+    top: 42%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+
+.inkwell {
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.image {
+    width: 151.9px;
+    height: 73.5px;
+    object-fit: cover;
+}
+
+
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tab:hover {
+    background-color: #0056b3;
+}
