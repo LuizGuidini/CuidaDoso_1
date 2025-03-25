@@ -1,0 +1,59 @@
+.labelFormularioValor
+    {
+	    font-family:Segoe UI, Tahoma, Sans-Serif;
+	    font-size:10pt;
+	    color:#000000;
+    }
+
+    .contentTab
+    {
+	    font-family:Segoe UI, Tahoma, Sans-Serif;
+	    font-size:10pt;
+	    color:#000000;
+	    font-weight:bold;
+    }
+
+    .divTab
+        {
+	    border-right: #A0C0E7 1px solid;
+	    border-left: #A0C0E7 1px solid;
+	    border-bottom: #A0C0E7 1px solid;
+	    background: -webkit-gradient(linear, left top, left bottom, from(#DFEEFF),
+        to(#B4D4FF)); /* For Webkit Browsers */
+	    background: -moz-linear-gradient(top, #DFEEFF, #B4D4FF); /* for Firefox */
+	    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#DFEEFF',
+        endColorstr='#B4D4FF'); /* for IE */
+    }
+
+    .primeiraTab
+    {
+	    border-left: #A0C0E7 1px solid;
+	    border-bottom: #A0C0E7 1px solid;
+	    border-top: #A0C0E7 1px solid;
+	    background-color:#DFEEFF;
+	    cursor:default;
+    }
+
+    .meioTab
+    {
+	    border-left: #A0C0E7 1px solid;
+	    border-bottom: #A0C0E7 1px solid;
+	    border-top: #A0C0E7 1px solid;
+	    background-color:#DFEEFF;
+	    cursor:default;
+    }
+
+    .ultimaTab
+    {
+	    border-left: #A0C0E7 1px solid;
+	    border-bottom: #A0C0E7 1px solid;
+	    border-top: #A0C0E7 1px solid;
+	    background-color:#DFEEFF;
+	    cursor:default;
+    }
+
+    .semTab
+    {
+	    border-left: #A0C0E7 1px solid;
+	    border-bottom: #A0C0E7 1px solid;
+    }
